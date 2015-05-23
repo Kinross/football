@@ -197,3 +197,7 @@ h2 {
 #key {
 	font-size:11pt;
 }
+
+#key {
+    visibility: hidden;
+}

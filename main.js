@@ -657,6 +657,8 @@ $(document).ready(function() {
 		});
 		$("#loading").remove();
 		$(".hide").removeClass("hide");
+		$("#key").css('visibility','visible');
+		
 
 	});
 
