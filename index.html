@@ -6,12 +6,48 @@
 		<meta name="googlebot" content="noindex">
 		<meta name="robots" content="noindex, nofollow">
 		<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
-        <script src="d3.v3.min.js">
-        </script>
-        <script src="jquery-2.0.0.min.js">
-        </script>
+		<link href="main/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <script type="text/javascript" src="d3.v3.min.js"></script>
+        <script type="text/javascript" src="jquery-2.0.0.min.js"></script>
 		<script type="text/javascript" src="main.js"></script>
 		<link rel="stylesheet" type="text/css" href="main.css" />
+		<script type="text/javascript" src="html5.js"></script>
+        <noscript>
+            <style  type="text/css">
+                body > * {
+                    display: none; !important;
+                }
+                #no-html5 {
+                    display: block;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                #no-html5 img {
+                    display: block;
+                    margin: 2em auto;
+                }		
+				
+                #no-html5 h1, #no-html5 h2, #no-html5 p {
+                    text-align: center;
+                    width: 100%;
+					margin-right:0;
+					margin-left:0;
+                }
+				#no-html5 h1 {
+					padding-top: 1.6em;
+				}
+                body {
+                    background: white;
+                }
+            </style>
+            <div id="no-html5">
+                <h1>Whoops!</h1>
+                <h2>You have JavaScript disabled, please enable it to view this data visualisation.</h2>
+                <img src="sad.gif" alt="no JavaScript">
+            </div>
+        </noscript>			
 	</head>
 	<body>
 
@@ -65,5 +101,4 @@
 		</div>
 
 	</body>
-
 </html>
