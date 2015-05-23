@@ -10,7 +10,7 @@ $(document).ready(function() {
 	var isTouch = (hasOntouchstart() || (navigator.msMaxTouchPoints > 0)),
 	    $hover = $("#hover"),
 	    mousePadding = $hover.height() / 2,
-	    defaultChordStarts = [[0, 0], [18, 0], [22, 6]],
+	    defaultChordStarts = [[0, 0], [29, 3], [29, 12]],
 	    jsonFeed,
 	    navItems,
 	    teamLookUp = [];
