@@ -149,3 +149,51 @@ h2 {
 	-moz-box-shadow: 0 0.6em 0.6em -0.6em #a4a4a4;
 	box-shadow: 0 0.6em 0.6em -0.6em #a4a4a4;
 }
+
+
+#key * , #key * * {
+	display:inline-block;
+}
+
+#key div div {
+    margin: 0 0.2em;
+    background: #dbdbdb;
+	vertical-align: middle ;
+}
+
+#key div  {
+    margin:0.4em;
+}
+
+#key {
+	margin-bottom:2em;
+}
+
+#key div .s1, #key div .s2, #key div .s3 {
+    width: 0.6em;
+    height: 1.6em;
+}
+
+#key div .s1 {
+    width: 0.3em;
+}
+
+#key div .s3 {
+    width: 1em;
+}
+
+#key div .b {
+    background: #9cc3de;
+}
+
+#key div .r {
+    background: #e8a2a5;
+}
+
+#key div:first-child{
+	font-weight: bold;
+}
+
+#key {
+	font-size:11pt;
+}
