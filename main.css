@@ -194,10 +194,25 @@ h2 {
 	font-weight: bold;
 }
 
-#key {
+#key  {
 	font-size:11pt;
 }
 
-#key {
+#key , #copyRight {
     visibility: hidden;
+}
+
+#copyRight a {
+	color:#DBDBDB;
+}
+
+#copyRight a , #copyRight {
+	font-size:10pt;	
+	width:100%;
+}
+
+#copyRight:hover , #copyRight a:hover {
+	
+	font-size:10pt;	
+	color:#3c3c3c;
 }
