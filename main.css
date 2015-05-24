@@ -204,11 +204,13 @@ h2 {
 
 #copyRight a {
 	color:#DBDBDB;
+	color:#fafafa;
 }
 
 #copyRight a , #copyRight {
 	font-size:10pt;	
 	width:100%;
+	clear:all;
 }
 
 #copyRight:hover , #copyRight a:hover {

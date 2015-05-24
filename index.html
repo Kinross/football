@@ -1,44 +1,52 @@
 <!DOCTYPE HTML>
 <html lang="en">
-	<head>
-		<title>English and Welsh top division football</title>
+    <head>
+        <title>English and Welsh top division football</title>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-		<meta name="googlebot" content="noindex">
-		<meta name="robots" content="noindex, nofollow">
-		<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
-		<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
-        <script type="text/javascript" src="d3.v3.min.js"></script>
-        <script type="text/javascript" src="jquery-2.0.0.min.js"></script>
-		<script type="text/javascript" src="main.js"></script>
-		<link rel="stylesheet" type="text/css" href="main.css" />
-		<script type="text/javascript" src="html5.js"></script>
+        <meta name="googlebot" content="noindex">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <script type="text/javascript" src="d3.v3.min.js">
+        </script>
+        <script type="text/javascript" src="jquery-2.0.0.min.js">
+        </script>
+        <script type="text/javascript" src="main.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script type="text/javascript" src="html5.js">
+        </script>
         <noscript>
-            <style  type="text/css">
+            <style type="text/css">
                 body > * {
-                    display: none; !important;
+                    display: none;
+                    !important;
                 }
+                
                 #no-html5 {
                     display: block;
                     position: absolute;
                     width: 100%;
                     height: 100%;
                 }
-
+                
                 #no-html5 img {
                     display: block;
                     margin: 2em auto;
-					height: 150pt;
-                }		
-				
+                    height: 150pt;
+                }
+                
                 #no-html5 h1, #no-html5 h2, #no-html5 p {
                     text-align: center;
                     width: 100%;
-					margin-right:0;
-					margin-left:0;
+                    margin-right: 0;
+                    margin-left: 0;
                 }
-				#no-html5 h1 {
-					padding-top: 1.6em;
-				}
+                
+                #no-html5 h1 {
+                    padding-top: 1.6em;
+                }
+                
                 body {
                     background: white;
                 }
@@ -48,92 +56,84 @@
                 <h2>You have JavaScript disabled, please enable it to view this data visualisation.</h2>
                 <img src="sad.gif" alt="no JavaScript">
             </div>
-        </noscript>			
-	</head>
-	<body>
-
-	    <div id="key">
-	        <div>
-	            Key: 
-	        </div>
-	        <div>
-	            Win = 
-	            <div class="b s1">
-	            </div>
-	        </div>
-	        <div>
-	            Loss = 
-	            <div class="r s1">
-	            </div>
-	        </div>
-	        <div>
-	            Draw = 
-	            <div class="s1">
-	            </div>
-	        </div>
-	        <div>
-	            Goal difference = 
-	            <div class="s1">
-	            </div>
-	            <div class="s2">
-	            </div>
-	            <div class="s3">
-	            </div>
-	        </div>
-	    </div>
-
-		<div id="hover">
-			score
-		</div>
-
-		<div class="content">
-
-			<div id="loading">
-				<img class="ajax-loader" alt="loading page" src="loading.gif"/>
-			</div>
-
-			<div id="g1" class="hide graphic graphic-landscape">
-				<div class="nav">
-					<div class="face">
-						<a>Year</a>
-					</div>
-					<ul>
-						<li>
-							<a class="0">year</a>
-						</li>
-					</ul>
-				</div>
-				<div class="heading">
-					<h2>Team</h2>
-				</div>
-				<div class="d3">
-					.
-				</div>
-			</div>
-
-			<div id="g2" class="hide graphic graphic-landscape">
-				<div class="nav">
-					<div class="face">
-						<a>Year</a>
-					</div>
-					<ul>
-						<li>
-							<a class="0">year</a>
-						</li>
-					</ul>
-				</div>
-				<div class="heading">
-					<h2>Team</h2>
-				</div>
-				<div class="d3">
-					.
-				</div>
-			</div>
-		</div>
-
-	    <div id="copyRight">
-<a   href='https://www.davidkinross.co.uk'>
-				&copy;2015 David Kinross	</a>	
-
-	</body>
+        </noscript>
+    </head>
+    <body>
+        <div id="key">
+            <div>
+                Key: 
+            </div>
+            <div>
+                Win = 
+                <div class="b s1">
+                </div>
+            </div>
+            <div>
+                Loss = 
+                <div class="r s1">
+                </div>
+            </div>
+            <div>
+                Draw = 
+                <div class="s1">
+                </div>
+            </div>
+            <div>
+                Goal difference = 
+                <div class="s1">
+                </div>
+                <div class="s2">
+                </div>
+                <div class="s3">
+                </div>
+            </div>
+        </div>
+        <div id="hover">
+            score
+        </div>
+        <div class="content">
+            <div id="loading">
+                <img class="ajax-loader" alt="loading page" src="loading.gif"/>
+            </div>
+            <div id="g1" class="hide graphic graphic-landscape">
+                <div class="nav">
+                    <div class="face">
+                        <a>Year</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <a class="0">year</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="heading">
+                    <h2>Team</h2>
+                </div>
+                <div class="d3">
+                    .
+                </div>
+            </div>
+            <div id="g2" class="hide graphic graphic-landscape">
+                <div class="nav">
+                    <div class="face">
+                        <a>Year</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <a class="0">year</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="heading">
+                    <h2>Team</h2>
+                </div>
+                <div class="d3">
+                    .
+                </div>
+            </div>
+        </div>
+        <div id="copyRight">
+            <a href='https://www.davidkinross.co.uk'>&copy;2015 David Kinross</a>
+        </div>
+    </body>
 </html>
